@@ -12,7 +12,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
@@ -20,11 +20,11 @@
     ></script>
   </head>
 
-  <body>
+  <body class="bg-light 10">
     <div class="container" >
       <div class="row">
         <div class="col text-center" >
-            Welcome back, Charles
+           <b> Welcome back, Charles</b>
         </div>
       </div>
       <div class="row">
@@ -33,8 +33,8 @@
         </div>
       </div>
       
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 ">
                 
                  <div class="card">
                     <div class="card-img text-center"><img class="rounded-circle" src="https://demo-basic.adminkit.io/img/avatars/avatar.jpg" style="height: 100px; width: 100px;">
@@ -47,13 +47,24 @@
                       <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Password</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1">
+                        <small>
+                          <a href="">Forgot password?</a>
+                        </small>
+                      </div>
+                      <div>
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox" value="remember-me" name="remember-me" >
+                          <span class="form-check-lable">Remember me next time</span>
+                        </label>
                       </div>
                     </div>
-
-                    Remember me next time
+                    <div class="text-center mt-3 pb-3">
+											<a href="index.html" class="btn btn-lg btn-primary">Sign in</a>
+										</div>
                  </div>
             </div>
       
     </div>
+
   </body>
 </html>
